@@ -1,0 +1,101 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  max-height: 100vh;
+  background-color: #d6e1ff;
+  font-family: "Red Hat Display", sans-serif;
+  padding: 0 1.5em;
+}
+.container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 25px;
+  overflow: hidden;
+  max-height: 100%;
+  max-width: 450px;
+  margin: 2.5em auto;
+}
+.img img {
+  max-width: 100%;
+}
+.container2 {
+  padding: 30px;
+}
+.summary {
+  display: grid;
+  justify-items: center;
+}
+.sum-title {
+  margin: 0;
+}
+.summary p {
+  margin: 1em 0;
+  line-height: 1.5em;
+  color: hsl(224, 23%, 55%);
+}
+.select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-bottom: 1.5em;
+}
+.items {
+  display: grid;
+  row-gap: 0.4em;
+}
+.items span:first-child {
+  font-weight: bold;
+}
+.items span:nth-child(2) {
+  color: hsl(224, 23%, 55%);
+}
+.item .change {
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+}
+.item .change:hover {
+  text-decoration: none;
+  color: hsla(245, 75%, 52%, 0.5);
+}
+.order button {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 1.5em;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  font-weight: bold;
+  box-shadow: 0 1.5em 16px 0px hsl(225, 100%, 94%);
+  cursor: pointer;
+}
+.order button:hover {
+  background-color: hsla(245, 75%, 52%, 0.5);
+}
+.order span {
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+  cursor: pointer;
+}
+.order span:hover {
+  color: black;
+}
+footer {
+  color: hsl(224, 23%, 55%);
+  font-size: 12px;
+}
+footer a {
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+}
